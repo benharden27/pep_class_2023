@@ -1,0 +1,9 @@
+---
+title: "2. Probe"
+weight: 2
+draft: true
+---
+
+Your research team will begin visualizing data and testing hypotheses about your topic area. You will then summarize your findings in a short data report that combines figures and text.
+
+Follow the skills paths below to achieve this goal

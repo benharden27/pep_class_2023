@@ -1,0 +1,44 @@
+---
+title: "Project Hypotheses"
+author: Ben Harden
+date: '2022-05-05'
+level: 2
+slug: []
+categories: []
+tags: []
+draft: no
+quiz: https://classroom.google.com/c/NDg3ODE3MzU4NzEw/a/NTM0Mzg4ODk4NjIx/details
+---
+
+Now that we've reviewed our understanding of what a traditional hypothesis is and how we can apply that to oceanography, we need to apply that understanding to our research project.
+
+## Exercise
+
+Your job as a team is to create a list of possible hypotheses about your topic in the region of interest. 
+
+You should remember that a good hypothesis is:
+
+* Based on background understanding (i.e. not just a guess)
+* Specific enough (i.e. not too broad as to be unhelpful)
+* Actually testable (i.e. something you have the data to test)
+
+You should do the following as a team:
+
+1. Create a list of at least three possible hypotheses that you think you could test using your data
+
+1. For each write down a list of possible factors that might limit your ability to test this hypothesis with your data. Note how important each might be and what possible mitigation you might apply.
+
+1. For each sketch a figure that you might produce that could confirm or refute your data - what would the data look like if your hypothesis was confirmed?
+
+Once you have these, you should show them to me and we can discuss them and share feedback.
+
+After sign-off from me you should then each individually:
+
+1. Pick one hypothesis to test (can be the same as another group member)
+
+1. Use ggplot to generate a figure (possibly similar to the one you proposed above) that could confirm or refute the hypothesis
+
+1. Create a document that contains the hypothesis, the figure, a description of what the figure shows, and how it either confirms or refutes your hypothesis.
+
+You can submit this individual work to the assignment below.
+

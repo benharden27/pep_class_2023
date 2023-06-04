@@ -1,0 +1,183 @@
+---
+title: Cruise Data
+author: Ben Harden
+date: '2022-05-24'
+slug: []
+categories: []
+tags: []
+draft: no
+---
+
+Our research projects will be centered on the data we collected during our 4 day cruise on the *SSV Corwith Cramer*. We sailed out of Woods Hole, out onto the inner New England Continental Shelf before looping back through Rhode Island Sound. During the cruise we undertook five sampling stations to collect data from CTD, niskin bottles, and neuston net.
+
+```{r, echo = FALSE, warnings = FALSE, message=FALSE}
+library(tidyverse)
+stations <- read_csv("data/C303B_stations.csv")
+elg <- read_csv("data/C303B_flowthru.csv")
+coastline <- read_csv("data/coastline.csv")
+
+xbreaks <- pretty(range(elg$lon))
+xlabels <- paste0(abs(xbreaks), "°W")
+ybreaks <- pretty(range(elg$lat))
+ylabels <- paste0(abs(ybreaks), "°N")
+
+ggplot(elg, aes(lon, lat)) +
+  geom_path() +
+  geom_polygon(aes(group = group), data = coastline) +
+  geom_point(data = stations, color = "red") +
+  geom_text(aes(label = station), data = stations, nudge_x = -.12) +
+  coord_quickmap(xlim = range(elg$lon) + c(-.3,+.1),
+                 ylim = range(elg$lat) + c(-.1,+.1)) +
+  labs(x = NULL, y = NULL) +
+  scale_x_continuous(breaks = xbreaks, labels = xlabels) +
+  scale_y_continuous(breaks = ybreaks, labels = ylabels) +
+  theme_minimal()
+```
+
+
+## Overview
+
+Below are links to the data collected during the cruise. You should create a new project in RStudio, download the data and copy it across into your new project folder. Each file is a csv file which should be well-formatted and easy to read into R using `read_csv(<filename>)`/.
+
+For each data stream, I've included the relevant metadata for you to determine what the column names mean.
+
+## Stations
+
+First off is the simple station location data. 
+
+* [Station location data](data/C303B_stations.csv)
+
+This includes the following columns
+
+* station: station name
+* dttm: Date and time of station
+* lon: Longitude (in deg E)
+* lat: Latitude (in deg N)
+
+## Flowthrough
+
+The flowthrough data is continuous surface data recorded whenever the ship is in transit along the cruise track. This includes our location but also surface salinity, temperature, and fluorescence (chl-a).
+
+One note - for the first 12 hours of the cruise, the flowthrough was not operating effectively and eventually stopped working. We discovered a build-up of biomass in the feeder pipe and cleaned this out. As such, the flowthrough data from before this period has been removed from the data set. The location and wind data is still there, but not the temperature, salinity or fluorescence.
+
+* [Flowthrough Data](data/C303B_flowthru.csv)
+
+The columns are:
+
+* dttm: Date and time
+* lon: Longitude (decimal degrees east of 0)
+* lat: Latitude (decimal degrees north of 0)
+* temp: Surface temperature (°C)
+* sal: Surface salinity (PSU)
+* fluor: Surface fluorescence (Volts - a measure of chlorophyll-a concentration)
+* cdom: Color Dissolved Organic Matter (Volts - measure of ocean pigment)
+* xmiss_1min: Transmissivity (V - a measure of oceans opacity)
+* wind_sp: Wind speed in m/s
+* wind_dir: Wind direction in degrees from North
+* heading: Ships heading in (°T)
+* pitch: Ship's pitch (forward and back motion)
+* roll: Ship' roll (side to side motion)
+* filename: Original filename from which data was processed
+
+
+## CTD
+
+When we stopped on station, we lowered the CTD carousel to the sea floor. While this was happening, the CTD was recording continuous measurements of temperature, salinity, pressure, light availability and fluorescence.
+
+One note on this data is that the CTD file for the 001 station got corrupted on transfer and we haven't been able to process it.
+
+I have included the data in a couple of formats. One data file contains all the available CTD casts in one csv. But I have also broken each cast out into their own file. I would recommend using these individual files when taking your first steps into R data vis although you may find the combined data easiest to use when approaching slightly less basic plotting
+
+* [CTD data All](data/C303B_ctd_all.csv)
+* [CTD data Station 2](data/C303B-002_ctd.csv)
+* [CTD data Station 3](data/C303B-003_ctd.csv)
+* [CTD data Station 4](data/C303B-004_ctd.csv)
+* [CTD data Station 5](data/C303B-005_ctd.csv)
+
+
+The columns are:
+
+* cruise: Cruise ID (S303B)
+* station: Station number
+* lon: Longitude (°E)
+* lat: Latitude (°N)
+* dep: Depth of measurement (m)
+* fluor: Fluorescence (V - measure of chl-a concentration)
+* oxygen2: Oxygen concentration
+* par: Photosynthetically Available Radiation (microEinsteins - measure of light availability)
+* pres: Pressure at depth of measurement (dbar)
+* sal: Salinity (PSU)
+* sigtheta: Potential Density (kg/m3)
+* temp: Temperature (°C)
+* theta: Potential Temperature (°C)
+* file: Original filename of data
+
+## Hydrowork
+
+As we lower the CTD we also lower the 12 niskin bottle of the carousel. We shut these at difference depths and then drew that water off when it gets back to the surface. We then analyzed that water for chl-a, phosphates, and pH. 
+
+As with the CTD data I've broken each cast out into it's own file (see above), but I've also included a combined data file which you might find it easier to use for more advance R plotting.
+
+* [Hydrowork All](data/C303B_hydro_all.csv)
+* [Hydrowork Station 1](data/C303B-001_hydro.csv)
+* [Hydrowork Station 2](data/C303B-002_hydro.csv)
+* [Hydrowork Station 3](data/C303B-003_hydro.csv)
+* [Hydrowork Station 4](data/C303B-004_hydro.csv)
+* [Hydrowork Station 5](data/C303B-005_hydro.csv)
+
+
+The columns are:
+
+* station: Station number for the cruise
+* dttm: Date and time
+* lon: Longitude (decimal degrees east of 0)
+* lat: Latitude (decimal degrees north of 0)
+* bottle: Bottle that water was drawn from (#)
+* depth: Depth of bottle when it was closed
+* temp: Temperature (°C)
+* sal: Salinity (PSU)
+* density: Density (kg/m3)
+* chla: Extracted chl-a values (mg/L)
+* po4: Phosphate Concentration (uMol)
+* pH: Ocean pH
+
+
+## Neuston
+
+At each station, along with the carousel, we also deployed the Neuston net. This is an ocean surface net tow to sample the zooplankton community. Data includes both how much stuff we physically found and statistics on who was found.
+
+There are a ton of columns in this data sheet - I haven't itemized them all below, but included categories of columns in bold. Please ask if it's not obvious
+
+* [Neuston Data](data/C303B_neuston.csv)
+
+Columns are:
+
+* station: Station number for the cruise
+* density: Surface Ocean Density (km/m3)
+* chla: Surface extracted chla content (mg/L)
+* po4: Phosphate Concentration (uMol)
+* pH: Ocean pH
+* dttm_in: Date and time net went in
+* dttm_out: Date and time net came out
+* lon: Longitude (decimal degrees east of 0)
+* lat: Latitude (decimal degrees north of 0)
+* temp: Temperature (°C)
+* sal: Salinity (PSU)
+* fluor: Surface fluorescence (Volts - a measure of chlorophyll-a concentration)
+* moon_phase: Phase of the moon from completely full (100) to completely new (0)
+* moon_mode: Whether the moon was “set” or “risen” at the time of the cast
+* cloud_cover: Percentage cloud cover
+* wind: Wind strength
+* current: Current strength
+* heading: Ships heading during tow
+* tow_dist: The distance that we towed the net for (meters)
+* biomass: Biovolume of zooplankton (< 2cm) captured in net (mL)
+* biodens: The biomass normalized by the tow_dist (mL/m2)
+* tow_desc: Written description of the tow contents
+* *Nekton*: Columns itemizing larger things, how many we found and what they were
+* *Plastics*: Columns itemizing number of pieces and density
+* tow_desc: Description of tow (if any)
+* *Zooplankton*: Many columns are different classes of zooplankton and how many were
+* Total.#.of.organisms: The actually total number of zooplankton counted (although we plan on counting 100 zooplankton, sometimes we get one or two more or less)
+* Shannon.Weiner.Diversity.Index: A diversity index (0 - 1)
+* daynight: Whether the station was at “night” or during the “day” (nominal window for "night" is 6pm-6am)

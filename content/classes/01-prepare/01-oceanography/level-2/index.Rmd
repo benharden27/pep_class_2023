@@ -1,0 +1,162 @@
+---
+title: 'Real-world application'
+author: Ben Harden
+date: '2021-05-05'
+level: 2
+slug: []
+categories: []
+tags: []
+draft: no
+quiz: https://classroom.google.com/c/NDg3ODE3MzU4NzEw/a/NDg3ODE4MzQyMTA5/details
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(tidyverse)
+```
+
+Now that we're familiar with some of the basic properties of the ocean, we're going to move on to apply these ideas to some real world data and applications. At any point, you should feel empowered to visit (or revisit) the [level 1](../level-1/) page to review the background concepts.
+    
+Each topic has some real data and an exercise to complete. I can sign you off on the level in two ways: If you would like to write your answers, you can upload your responses to the Google Classroom for me to review. Alternatively, you can give me a verbal report once you feel confident on the topics. As with all levels, you will have a chance to review feedback and submit again. 
+
+Once a good number of you have worked on these ideas, I will also be going over these activities explicitly in class.
+    
+## Temperature, Salinity and Density
+
+We saw maps of the surface distribution of temperature and salinity in the Segar reading. That reading also discussed why the patterns are the way they are. Below are comparable figures from the World Ocean Circulation Experiment (WOCE) for your reference.
+
+![](woce_surf_temp.png)
+
+![](woce_surf_sal.png)
+The following image shows five vertical profiles of temperature, salinity and density from around the world. These were all taken from a ship using a CTD at locations shown on the map below. I have labeled all the profiles as letters and shown you all the positions as numbers, but I haven't matched them up.
+
+```{r profiles}
+df <- read_csv("profiles.csv")
+
+varlabs <- c(theta = "Temperature (°C)",
+             sal = "Salinity",
+             sigma = "Density (kg/m3)")
+
+gather(df, key, value, theta, sal, sigma) %>%
+  ggplot(aes(value, z)) +
+  geom_path(aes(color = Cruise)) +
+  facet_wrap(~factor(key, c("theta", "sal", "sigma")), 
+             nrow = 1, scales = "free_x", 
+             strip.position="bottom",
+             labeller = as_labeller(varlabs)) +
+  scale_y_reverse() +
+  coord_cartesian(ylim = c(500,0), expand = TRUE) +
+  scale_color_discrete(labels = c("A","B","C","D","E")) +
+  labs(x = NULL,
+       y = "Depth (m)",
+       color = "Station") +
+  theme_bw() +
+  theme(strip.background = element_blank(),
+        strip.placement = "outside")
+```
+
+```{r profile_map}
+xrange <- c(100,360)
+xbr <- seq(0,360,30)
+xlabs <- ifelse(xbr>180, paste0(360-xbr, "°W"), paste0(xbr,"°E"))
+
+yrange <- c(-90,90)
+ybr <- pretty(yrange)
+ylabs <- ifelse(ybr>0, paste0(ybr, "°N"), paste0(abs(ybr), "°S"))
+
+group_by(df, Cruise) %>% 
+  summarize(lon = mean(lon), lat = mean(lat)) %>%
+  ggplot(aes(ifelse(lon<0,lon+360,lon), lat)) +
+  geom_polygon(aes(long, lat, group = group), data = map_data("world2"), fill = "grey50") +
+  geom_point() +
+  geom_label(aes(label = c(2,4,5,1,3)), nudge_x = 10) +
+  coord_quickmap(xlim = xrange, ylim = yrange, expand = FALSE) +
+  scale_x_continuous(breaks = xbr, labels = xlabs) +
+  scale_y_continuous(breaks = ybr, labels = ylabs) +
+  labs(x = NULL, y = NULL) +
+  theme_bw()
+
+```
+
+* Q1: Use the WOCE surface temperature and salinity maps (above) to match the profiles up to their locations based on the surface temperature and salinity in the profiles.
+
+* Q2: Which profile/regions have the strongest and weakest pycnoclines? Why? 
+
+* Q3: What consequences do you think this has for the vertical motion of water in these locations?
+
+
+## Phytoplankton, Nutrients, and Light.
+
+The following are profiles of ocean properties in the open ocean somewhere in the South Pacific. From left we have Light availability, Density, Fluoroesence (a measure of the amount of chlorophyll-a in the water and is commonly used as a proxy for how much phytoplankton is around) and Dissolved Oxygen.
+
+```{r}
+
+vars <- c(par = "Light Availabilty (V)",
+          sigtheta = "Density (kg/m3)",
+          fluor = "Fluoresence (V)",
+          oxygen = "Oxygen") 
+          
+
+read_csv("S285-044.csv") %>%
+  filter(!is.na(dep) & dep <350) %>%
+  pivot_longer(c(par, fluor,sigtheta, oxygen)) %>%
+  ggplot(aes(value, dep)) +
+  geom_path() +
+  geom_hline(yintercept = 0, color = "grey50") +
+  facet_wrap(~factor(name, names(vars)), 
+             nrow = 1, scales = "free_x",
+             strip.position = "bottom", 
+             labeller = as_labeller(vars)) +
+  scale_y_reverse(breaks = seq(0,400,50)) +
+  coord_cartesian(ylim = c(300,0)) +
+  labs(x = NULL, y = "Depth (m)") +
+  theme_minimal() +
+  theme(strip.background = element_blank(),
+        strip.placement = "outside",
+        strip.text = element_text(size = 10),
+        axis.line =  element_line(size = .2),
+        panel.grid.major = element_line(color = "grey50", size = .2),
+        panel.spacing = unit(1, "cm"))
+```
+
+Q4: Look first at the light curve: where is there the most light and at what depth is there essentially no light in the ocean.
+
+Q5: Look at the density plot: How deep is the mixed layer?
+
+Q6: Assuming there are no available nutrients in the mixed-layer and that nutrient availability increases below the pycnocline, explain why most phytoplankton (fluoroesence) are found around 100 m in the ocean.
+
+Q7: Use the above answers and what you know about the processes by which oxygen enters the ocean to explain the shape of the oxygen curve. Where are values high/low and why is that?
+
+## Zooplankton
+
+The following is some cruise data collected to the east of the Carribean. Each point represents a location where a surface net was towed from the research vessel. The amount of zooplankton collected in the net is represented by the size of the circle and the color indicates whether the sample was collected during the day or at night.
+
+```{r}
+df <- read_csv("C282_neuston.csv") %>%
+  mutate(daynight = ifelse(lubridate::hour(dttm_in) > 6 & lubridate::hour(dttm_in) < 18, "day", "night")) %>%
+  filter(lon > -57)
+
+ybreaks <- seq(10,20,2)
+ylabels <- paste0(abs(ybreaks), "°N")
+
+xbreaks <- seq(-66,-54,2)
+xlabels <- paste0(abs(xbreaks), "°W")
+
+
+ggplot(df, aes(lon,lat)) +
+  geom_point(aes(size = biodens*1000, color = daynight)) +
+  geom_polygon(aes(long, lat, group = group), data = map_data("world")) +
+  coord_quickmap(xlim = c(-65,-55), ylim = c(10,20)) +
+  labs(x= NULL, y = NULL,
+       color = NULL,
+       size = "Zooplankton (µl/m2)") +
+  scale_y_continuous(breaks = ybreaks, labels = ylabels) +
+  scale_x_continuous(breaks = xbreaks, labels = xlabels) +
+  theme_bw()
+
+```
+Q8: In general, were more zooplankton collected during the day or during the night? What could explain that pattern?
+
+Q9: Does the pattern hold true in all regions? If not, why might this be?
+
+

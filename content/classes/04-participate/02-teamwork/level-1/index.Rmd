@@ -1,0 +1,34 @@
+---
+title: "Effective Teams"
+author: Ben Harden
+date: '2021-05-05'
+level: 1
+slug: []
+categories: []
+tags: []
+draft: no
+---
+
+We crowd sourced a good amount of this level content as a class including setting up some basic criteria for the creation of a successful team. 
+
+What came to the surface through this exercise is that a team is successful if they can work together effectively to reach a common goal. This goal is typically not achievable by any one individual alone.
+
+Some features of successful teams that we discussed:
+
+* Strong communication strategies including clear expectations, etiquette, and ability to resolve conflicts constructively
+
+* Distinct roles such that everyone knows what part they play and can take ownership and have buy-in.
+
+* Equitable division of labor: Fair is not always equal, but everyone should feel they are contributing what they can and taking an equitable burden.
+
+* A clear plan. Knowing your goal is one this, but success in reaching it usually requires a clear plan and a system to both enact the plan and make decisions should the plan not work as effectively as they had hoped.
+
+Specifically in the science world, we call this teamwork collaboration. We will learn something of the ethics of collaboration at the WHOI Ethics Seminar on June 23, but here are a couple of other reflections on effective collaboration:
+
+* [How to Collaborate](https://www.science.org/content/article/how-collaborate) by Sharon Ann Holgate
+* [Meaningful collaborations can end "helicopter research"](https://www.nature.com/articles/d41586-021-01795-1) by Fernanda Adame
+* ["We need to talk": ways to prevent collaborations breaking down](https://www.nature.com/articles/d41586-021-01573-z) by Virginia Gewin
+
+And one article here talking more about what it takes to be a positive leader in science:
+
+* [How to Be a Great Leader in Science](https://www.scientificamerican.com/article/how-to-be-a-great-leader-in-science/) by Alison L. Antes

@@ -1,0 +1,86 @@
+---
+title: 'Extending ideas'
+author: Ben Harden
+date: '2021-05-05'
+level: 3
+slug: []
+categories: []
+tags: []
+draft: no
+quiz: https://classroom.google.com/c/NDg3ODE3MzU4NzEw/a/NDg3ODE4MzQyMTcx/details
+---
+
+Now that you're comfortable with the main oceanographic concepts it's time to extend your thoughts in one of the areas.
+
+Based on your interest, you should select one of the following sections to explore in more detail. You should review the content and answer the questions. Then either come see me to discuss or submit your answers on Google Classroom.
+
+## 1. Seasonal Temperature Profiles
+
+The depth and properties of the mixed layer of the ocean does not stay the same throughout the year. The following image shows the development of the temperature profile between summer and winter for a science station in the North East Pacific Ocean (Station OWS Papa).
+
+```{r, out.width="350px"}
+knitr::include_graphics("annual_cycle.jpg")
+```
+
+1. Write down the depth and temperature of the mixed layer for each profile shown. How would you simply describe to trends from August to April in these values?
+
+Two major factors influence the changes in the depth and temperature of the mixed layer:
+
+* A colder atmosphere will cool the surface layer. A warmer atmosphere will warm the surface layer.
+* Stronger winds will drive more stirring in the upper water. Less wind will tend to allow waters to become more stratified.
+
+As we move from the summer to the winter, the winds get progressively __stronger__ and __colder__.
+
+2. Can you use this information to describe and explain the evolution of the mixed layer from Summer to Winter?
+
+Below 120 m there is little change in temperature between seasons. 
+
+3. Why is this?
+
+4. How do you expect the evolution of the mixed layer to impact other oceanographic properties such as surface nutrient availability and oxygen content?
+
+## 2. Global Phytoplankton Growth
+
+We've looked at some of the factors that influence phytoplankton growth: primarily their access to light and nutrients. We're now going to explore how that changes around the planet.
+
+The following is a brief explanation of some of the processes that impact phytoplankton growth around the world, primarily mid-latitude seasonality, upwelling/downwelling, and terrestrial sources.
+
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/557703782?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="scripting.mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+Let's apply some of these idea to a global map of phytoplankton distribution. The following is an figure produced by a satellite that can map surface quantities of phytoplankton by measuring the color of the ocean. This particular map is an average of three years of measurements so averages through all seasons of the year.
+
+Green/yellow/red colors indicate more pythoplankton and blue/purple show less phytoplankton.
+
+<div class = "full-width">
+![](surface_phyto.jpg)
+</div>
+
+Think about and answer the following questions:
+
+1. Where are phytoplankton found in large amounts? Where are there fewer?
+
+2. Which of the processes described above could explain the patterns you are seeing in different regions?
+
+The following is a map of surface nitrate:
+
+<div class = "full-width">
+![](surf-nitrate.png)
+</div>
+
+3. How well does the map of surface nitrate predict the amount of phytoplankton in the global map? What regions predict this poorly and why?
+
+## 3. More on the Carbon Pump
+
+The oceanic carbon pumps are not quite as simple as we've been discussing so far. Along with the standard biological pump where detritus falls to the depths by gravity, there are a few nuanced additions to the way the ocean moves carbon from the surface to the deep ocean.
+
+This is nicely summarized in the following article:
+
+[Multi-faceted particle pumps drive carbon sequestration in the ocean](s41586-019-1098-2.pdf) by Philip W. Boyd, Hervé Claustre, Marina Levy, David A. Siegel & Thomas Weber 
+
+Read the paper above and think about the following questions:
+
+1. What tools have scientists traditionally used to measure the biological pump?
+
+2. What additional pumps exist in the ocean? 
+
+3. How important a role might they play in the overall amount of carbon that reaches the deep ocean?

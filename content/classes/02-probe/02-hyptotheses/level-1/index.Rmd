@@ -1,0 +1,18 @@
+---
+title: "Hypotheses"
+author: Ben Harden
+date: '2021-05-05'
+level: 1
+slug: []
+categories: []
+tags: []
+draft: no
+---
+
+We will do an in-class exercise to review what a hypothesis is and some thoughts for how we can apply that to oceanography. 
+
+Here are a couple of resources to review your understanding of a traditional scientific hypothesis
+
+* [Forming a Good Hypothesis for Scientific Research](https://www.verywellmind.com/what-is-a-hypothesis-2795239) by Kendra Cherry
+
+<iframe width="757" height="426" src="https://www.youtube.com/embed/PCgLjDDD4ek" title="6 Steps to Formulate a STRONG Hypothesis | Scribbr 🎓" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

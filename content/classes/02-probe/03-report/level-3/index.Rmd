@@ -1,0 +1,24 @@
+---
+title: 'Advanced Analysis'
+author: Ben Harden
+date: '2021-05-05'
+level: 3
+slug: []
+categories: []
+tags: []
+draft: no
+quiz: https://classroom.google.com/c/NDg3ODE3MzU4NzEw/a/NTM0OTYwMzM2MTI3/details
+---
+
+To advance to Level 3 analysis skills, I'd like to see you add nuance and and understanding of your data limitations to the data report. 
+
+You should create an individual Google Doc at the assignment below to be your personal addendum to the wider data report. In this document, you should record additional analyses that go beyond my expectations for Level 2. We will review this addendum together and you will respond to some of my thoughts to help expand your view of what the data means and what it can (and can't) tell us.
+
+We will chat ahead of you doing this work, but as with the Data Report, your addendum should be a living document - organized but not polished. Some things to thing about and possibly to respond to in your addendum: 
+
+* What general patterns have your group observed? Do these play out universally in your data or are there anomalies?
+* What alternative hypotheses can you develop to possibly explain any anomalies?
+* What can you say about the accuracy and quality of the data recorded? What factors might impact the values that were recorded?
+* What broader limitations exist in your data that limit your ability to conclusively prove or disprove your hypotheses?
+* What additional data could you bring in (be specific) that might help shed light on some of your research questions?
+* What additional plotting tools might you need to know to work with wider data or show your data more clearly?

@@ -1,0 +1,27 @@
+---
+title: 'Alternative Structures'
+author: Ben Harden
+date: '2021-05-05'
+level: 3
+slug: []
+categories: []
+tags: []
+draft: no
+quiz: https://classroom.google.com/c/NDg3ODE3MzU4NzEw/a/NTM1MzI3NTYzNDE5/details
+---
+
+Many successful posters include much of the info you would find in the traditional structure (Intro, Method, etc.) but organize it into sections that are more descriptive or draw your attention to particular results.
+
+We've seen a number of poster examples (both for formal and informal communication) so you may already have some thoughts about organizing your poster information.
+
+There are no set rules for how to do this, but one tool that can be useful is to think about section titles as being the main results you want people to focus on. Like with good presentation slide design, it's often a good idea for you section titles to be the main takeaway from that section. This focuses the readers attention to what they are expecting to learn in that section (something that "Results" gives you no clue to). 
+
+In addition to creating a new structure, I'm also looking for you to work on your concision and edit the text that your group generated to make it sharply focused whilst still maintaining clarity and enough information.
+
+To achieve sign off on Level 3, you should take you team text and edit it for concision/clarity and to fit underneath alternative section headings. This will probably involve moving some of the text around. 
+
+It may also be worthwhile to review and think about the story structures presented in [Presentation L3](../../../01-background/03-presentation/level-3/) to see how you might subvert the traditional flow of information in a poster to further draw attention to the key or surprising findings. 
+
+I'd like you to think of this as a low-stakes place to experiment. The text/sections you generate may not end up being used for your groups poster, but it will be useful for you development in science to be thinking about alternative paths to clear communication.
+
+Submit your text to the assignment below and I'll give you some feedback.

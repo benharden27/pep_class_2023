@@ -1,0 +1,32 @@
+---
+title: Calendar
+author: Ben Harden
+date: '2021-05-20'
+slug: []
+categories: []
+tags: []
+draft: no
+---
+
+Class period will be 9am - 12pm daily (Eastern time).
+
+Here are the scheduled class times and other class-adjacent dates:
+
+```{r, echo = F}
+knitr::kable(
+  tibble::tribble(~"Date         ", ~"Notes",
+                  "Mon June 5", "Program Orientation Day - Class 2p-5p",
+                  "Mon June 12", "Class 2p-5p",
+                  "Wed June 14", "Board SSV Corwith Cramer @ 2pm",
+                  "Sun June 18", "Return from sea @ 9am",
+                  "Mon June 19", "Juneteenth Observance - no class",
+                  "Tues June 20", "Class 1p-5p",
+                  "Thurs June 22", "Ethics Seminar @ WHOI 10a-1p",
+                  "Mon June 26", "Class 9a-5p",
+                  "Thurs June 29", "Pizza and Presentations 6p-8p",
+                  "Mon July 3", "Class 9a-5p",
+                  "Mon July 10", "Class 9a-5p",
+                  "Thurs July 13", "Class Poster Session 9a-10a"
+                  )
+)
+```

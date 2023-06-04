@@ -1,0 +1,26 @@
+---
+title: "Poster Structure"
+author: Ben Harden
+date: '2021-05-05'
+level: 1
+slug: []
+categories: []
+tags: []
+draft: no
+---
+
+In this section, we are going to be thinking about the text content of the research poster. As such, the end product will be the text that ends up on your poster.
+
+Posters are an important communication tool wherein the results of your research are presented in a clear, concise and visually appealing manner. On many occasions, you will be standing next to your poster describe your results to any interested researchers, but your work also needs to be understandable to someone who is reading it without your presence - this becomes increasingly important as conferences archive posters online. 
+
+Let's start by thinking a little about what kinds of things you are going to want to present in your poster. It's the culmination of your research project so you really want to get some clear results across. Like with research papers though, you also need enough context for someone to understand why and how you did the work so the results make sense.
+
+Many posters are organized like a traditional research paper with sections for Introduction, Methods, Results and Discussion. This is a fine way to do things and if you've not created a research poster before then it's a good way to go. There are other options too though and we will cover these in L3.
+
+Other than poster structure, the other question is how much text to use. The temptation is to fill as much of the poster as you can - the more information the better right?! But it is often better to give the poster more room to breathe and focus the reader's limited attention on a few main points. Some posters use bullet points for this reason and that's a fine way to go.
+
+Below is an article which gives a variety of opinions on poster structures:
+
+https://www.science.org/content/article/how-prepare-scientific-poster
+
+We'll also be looking at some [example posters](../../03-poster/level-1/) that will help us see examples of possible structures and amount of text.

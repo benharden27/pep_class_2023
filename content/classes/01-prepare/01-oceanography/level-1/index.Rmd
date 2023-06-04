@@ -1,0 +1,110 @@
+---
+title: "General Concepts"
+author: Ben Harden
+date: '2021-05-05'
+level: 1
+slug: []
+categories: []
+tags: []
+draft: no
+---
+
+There's a lot to cover here, much of which we will (or have already) touched on during our research cruise. On this level you'll find a bunch of readings and other resources to review or expand your understanding. Easch section is an overview of some high-level concepts and each has a "test your understanding" quiz - this is not graded, but for you to use to check you've internalized some of the key ideas. 
+
+A good starting place is some overview reading about our ocean planet as a whole.
+
+From [Segar](https://www.reefimages.com/oceansci.php):
+
+* [Chapter 1](https://www.reefimages.com/oceans/SegarOcean4Chap01.pdf):
+    + Introduction (pg. 1-2)
+    + The Oceans and Earth's Environment (pg. 2-6). These sections provide a good overview and motivation for studying the ocean.
+
+## Temperature, Salinity and Density
+
+Some of the most basic properties of the ocean are it's temperature (how hot/cold it is), Salinity (how salty it is), and density (how buoyant it is). As we will see, temperature and salinity dictate the density of the ocean and it's the density that is a large driver or inhibitor of ocean movement.
+
+Read the following from [Segar](https://www.reefimages.com/oceansci.php):
+
+- [Critical Concepts](https://www.reefimages.com/oceans/SegarOcean4CritCon.pdf) 1 and 6. These cover the key ideas that relate temperature and salinity (and pressure) to density
+- [Chapter 7](https://www.reefimages.com/oceans/SegarOcean4Chap07.pdf): 
+    + Water and Heat Budgets (pg. 147-149)
+    + Climate and Ocean Surface Water Properties (pg. 154-157). These sections covers the input and removal of heat and water from the ocean.
+
+Check out this video about the impact of salinity on density and how that creates stratification. We will run this experiment in class if time allows.
+
+<iframe src="https://player.vimeo.com/video/424923752" width="800" height="450" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+
+<div class ="exit-button">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScbaOrdSnSR3mU-Q4lGwFecDTEtmUW4C0tmAf8AlVhes3ehFw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer" class = "w3-button w3-blue">Test your understanding</a>
+</div>
+
+## Phytoplankton, Nutrients and Light
+
+Phytoplankton are the base of many food webs in the ocean. They are single-celled plant-like organisms that typically get their energy from sunlight. They exists throughout the world's oceans, primarily in the upper sunlit portion, but there are many factors that affect their abundance and geographic distribution.
+
+Watch this accessible intro to phytoplankton
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/fS422O4SLc4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Read the following from [Segar](https://www.reefimages.com/oceansci.php):
+
+* [Chapter 12](https://www.reefimages.com/oceans/SegarOcean4Chap12.pdf): only pg 287 - 298: these sections cover the basics of life in the ocean before going on to talk about primary production and the sources of light and nutrients for phytoplankton growth.
+
+
+<div class ="exit-button">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfohDaF3pTkC3f7o9_HENCpAoE3EImP2eHiy9XNvBiVpBMvSQ/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer" class = "w3-button w3-blue">Test your understanding</a>
+</div>
+
+## Oxygen and Carbon
+
+The ocean contains many elements, compounds and gases. Studying these and their interactions is the domain of chemical oceanography. This is clearly a very diverse field, but here, we will just touch on the basics of oxygen and carbon in the ocean. We wil look at both how they get into the ocean and then how they are moved from the surface to the deeper ocean by biology.
+
+Read the following from [Segar](https://www.reefimages.com/oceansci.php):
+
+- [Chapter 5](https://www.reefimages.com/oceans/SegarOcean4Chap05.pdf): 
+  * The Dissolving Power of Water (pg. 94-95)
+  * Sources and Sinks of Chemicals Dissolved in Seawater (pg. 95-96)
+  * Salinity (pg. 96-97)
+  * Dissolved Chemicals in Seawater (pg. 97-101)
+
+And a video describing how gases dissolve in water
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/tkQGHTdLkd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Read [The Ocean: A Carbon Pump](ocean-carbon-pump_ScientificItems_BD-2.pdf) which talks about the various ways in which carbon dioxide gets from the surface to the deep ocean including through the photosynthesis of [phytoplankton](https://en.wikipedia.org/wiki/Phytoplankton).
+
+Watch this short video about the Biological Pump
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/U03MUHFuO2o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<div class ="exit-button">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLScNYK1Z1z6Er8-JnDXei18rKYyvMFXnx6QTbFNoy1ZKTBxIQw/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer" class = "w3-button w3-blue">Test your understanding</a>
+</div>
+
+## Plankton
+
+Plankton are the community of drifters in the ocean. We've already met phytoplankton who produce their energy through photosynthesis, but now we'll add zooplankton who primarily get their energy from consuming other plants and animals. The diversity of plankton is extremely large so we wont try and cover everything or everyone, but instead familiarize ourselves with some basic types and processes.
+
+* [Chapter 12](https://www.reefimages.com/oceans/SegarOcean4Chap12.pdf): pgs 305 - 314: The section on Plankton covers many basic catergories and processes. 
+
+Check out the following two videos that give a broad overview to the types of plankton in our ocean.
+
+<iframe width="800" height="450"  src="https://www.youtube.com/embed/xFQ_fO2D7f0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="800" height="450"  src="https://www.youtube.com/embed/ziGtmjiUlJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+One important process in the world's oceans is Diel Vertical Migration (DVM), where the motile plankton community travel upwards in the water column at night to feed before sinking to deeper waters during the day to hide from predators. 
+
+Here is a graphic that nicely displays that process as day turns to night
+
+ <iframe width="800" height="450" frameborder="0" src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Animation_of_diel_migration.gif"></iframe> 
+ 
+ 
+<div class ="exit-button">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOoPBBUouRlpXiHDy9e9YKih7RO4GM3hpo8A7A__tEAYck-Q/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer" class = "w3-button w3-blue">Test your understanding</a>
+</div>
+ 
+ 
+ 

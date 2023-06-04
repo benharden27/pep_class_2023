@@ -1,0 +1,150 @@
+---
+title: About
+author: Ben Harden
+date: '2023-06-04'
+slug: []
+categories: []
+tags: []
+draft: no
+---
+
+The PEP class is built to help prepare you for the  work you will be doing this summer and beyond. This includes allowing you to:
+
+- Build your knowledge of broad oceanographic and environmental science topics
+- Develop you research skills
+- Understand yourself and the community you are becoming a part of
+
+## Class Philosophy
+
+Before I get to details, I want to start by laying out my philosophy for this class. 
+
+You are all coming to this class with different experiences. Some of you have had previous research opportunities, some none. Others will have been exposed to coding skills, many will not. Some of you will be environmental science majors, while for others this will be a new topic to grapple with. Some of you will be adept at telling stories about your work, others will be starting out on this journey. 
+
+Regardless of your previous experiences, you all have strengths to bring to the table. You all have a responsibility to keep your eyes open for your peers who are struggling and help them out. This class is a **collaborative space** so that everyone can grow their skills and understanding as much as possible. No one succeeds whilst someone else fails. We all grow together.
+
+The class will be **flexibly-paced**, meaning you will have some choice about how and when to move through the content and exercises when it suits you. My reasons for this are to help you:
+
+* Plan your time to best suit your learning style and energy levels
+* Continue to work when you don't have access to immediate instructor feedback
+* Have more time for things you struggle with by allowing you to go faster through things you might find more straight-forward
+* Have more agency about how you spend your time and take breaks when you need them
+* Not get too focused keeping track of many deadlines
+* Collaborate with your peers at times that suit you
+* Prepare for your research which will be intrinsically self-paced
+
+The scheduled class hours will be used to introduce central concepts to the wider group as well as give you structured time to work in teams, understand concepts in smaller-group interactions, and participate in discussions and with guest speakers.
+
+Given your varied backgrounds and experiences, I will also be taking a **growth-based** approach to assessment. We will conference throughout the class to determine both your strengths and areas that you would like to grow in. This will allow us to set goals together for your success. See the class rubric for more information.
+
+I value feedback and self-reflection. You will be given many opportunities to let me know how you are getting on, what you are understanding, and what you have questions about. This will help you track your progress and will help me understand how best to help you and your fellow students. For the duration of the PEP class, you are my primary professional activity so feel empowered to contact me if you have any questions or concerns.
+
+Finally, remember throughout: you belong here at PEP and in the Woods Hole community. The PEP staff are here to support you and help you be successful.
+
+## What I expect from you
+
+I hope you will see this class as more than simply a requirement to gain a grade for college credit. It should be a useful tool for you to advance your thinking and skills around possible careers in environmental sciences. It should be directly relevant to the work you will be doing this summer as well as building a broader tool set for many possible avenues to come after you leave.
+
+I expect you to use your time in the PEP class effectively. The flexible-paced model will give you lots of opportunities to work when and how you like, but we do expect you to engage with all aspects. In-class time will be between 3-8 hours a day every Monday and expect to work an addition 1-2 hours a day to complete assignments and work at the weekend is also likely. Use your peers as a support network for things you are finding hard and to keep you accountable. 
+
+I welcome your feedback (and will ask for it frequently) so please let me know how you are getting on and what isn't sticking and I will try and help you out. Please also let me know how long the classwork is taking you so we can make sure we are giving you space to grow without overloading you. Again, the growth-based format should allow us to tailor the work expectations to your goals.
+
+## What you can expect from me
+
+I will be available for immediate feedback and discussion during the class periods on Monday. Please speak up if you need my support, but be patient as we try to meet the needs of the whole PEP cohort. If there are enough questions or interest in a particular topic then we will arrange small group instruction.
+
+Outside the class window I will also be available to answer questions and give feedback. Please contact me through Slack and I will get back to you as soon as I am able. Again, please be patient, but persistent.
+
+## Class Structure
+
+OK, so on to the nuts-and-bolts. 
+
+We're going to be framing all of our learning around a team-based research project. Your project team will examine data collected on our research cruise near the start of the program and follow a similar structure to that of your summer-long research internship.
+
+To break this research process down, we will be focusing on the following modules and associated skill sets:
+
+* **Prepare**
+  * Understanding key oceanographic concepts
+  * Reading papers and building a bibliography
+  * Structuring and delivering an oral background presentation
+  
+* **Probe**
+  * Visualizing data in R
+  * Testing hypotheses
+  * Writing a report/data notes
+  
+* **Present**
+  * Preparing visualizations for publication
+  * Composing poster text
+  * Designing a poster
+  
+* **Participate**
+  * Understanding yourself as part of a community
+  * Collaborating with others
+
+At the beginning of the class I will ask you to reflect on your experiences and comfort with each of these skills on a self-assessment rubric. That will form the basis of our initial discussion of how you would like to grow.
+
+You can see the list of topics, modules and levels on the [classes](../classes/) page which will be populated as the class progresses.
+
+### Levels
+
+Each skill has three associated levels to achieve. In most scenarios these levels will look like this: 
+
+Level 1: Typically a level to expose you to the skill/topic in question. If you are new to this skill or could use a refresher then this will be your starting point. It will often involve some self-guided readings/presentations and an opportunity to test your understanding. 
+
+Level 2: This level will typically ask you to apply the skill in a new, real-world scenario. Success at this level is where I would hope most of you can get to in each of the skills by the end of the class. 
+
+Level 3: This is a level that will often ask you to extend your skill set into more complex scenarios, incorporating new information, and undertaking revisions.
+
+### Grades
+
+At the beginning of the class I will ask you to review the [class skills rubric](https://classroom.google.com/c/NDg3ODE3MzU4NzEw/m/MzYzMzU0MjU2MDE1/details). Once you are clear on the expectations of each level I will ask you to assess you current attainment level with each. This might vary a lot over the range of topics, but please be honest - zero experience is a totally acceptable answer: we are not here to judge you, only to help you be successful.
+
+As stated above, my goal for this class is to have everyone achieve level 2 status in all skills by the end. After you've assessed where you are, I'm going to ask you make a plan for where you'd like to be. For those with less experience that might be bringing yourself up to Level 2 across the board. For others with broader experience it may be selecting a few skills to advance to level 3. For most of you it will probably be some combination of bringing some new skills to level 2 whilst progressing established skills.
+
+Once you've completed this self-assessment, I'll work with you to determine an achievable plan. We'll have a chance to review this mid-term, but the basic idea is that if you meet the goals set out then it's an A. Partial fulfillment is a B and little/no demonstrated progress a C.
+
+### Class Times and Your Research Internship
+
+Class will be most Mondays. In this period we'll have both synchronous and asynchronous class work. I will be available to you during this time and we expect you to be available for full-class, small group and individual interaction as needed.
+
+Outside of Mondays, I will also be available to field questions and offer assistance asynchronously until 7pm any day except Saturdays. Please post your questions in the #class Slack Channel and be patient for a reply. Remember, your peers will often be a great resource for you - please work together if you like, but remember to only submit your own work (see policy on academic accuracy in the syllabus).
+
+## Platforms
+
+To deliver the class content and skills, we will be using the following platforms. I have indicated below which of these you will have to sign-up for.
+
+### Class Site
+
+The site you are reading this on is the class website. It will be where we share the work you will need to complete for each level, module and topic. If a submission is required I will link directly to it in Google Classroom or RStudio Cloud (see below).
+
+### Google Classroom
+
+Google Classroom will be where we organize some assignments and submissions for various levels. You will need to sign-up for the class with the link and access code I will send to you through Slack.
+
+### Slack
+
+To facilitate direct communication with and between members of the 2020 PEP Cohort, we will be using Slack. This is a direct and group messaging application that will allow us to share news and upcoming events with the whole group as well as organize smaller discussions or contact individual students. You should already have signed-up for a Slack account.
+
+Please contact us through Slack if you have questions or need assistance.
+
+### RStudio Cloud
+
+We are going to be using a programming language called R for our data visualization work. To make this easy for me to help you, and for you to share your code with me, we are going to be doing this work on a cloud version of the software. You will need to go to <https://rstudio.cloud/> to sign up for a free account. I will then send you a link to my classroom for you to join. We'll talk more about how to use this platform in class.
+
+## Resources/Texts
+
+Our general oceanography text will be:
+
+[Introduction to Ocean Sciences](https://www.reefimages.com/oceansci.php), Second digital edition, ver 4.14 by Douglas A. Segar
+
+This is a good introductory text on the many aspects of ocean science and is all [available online](https://www.reefimages.com/oceansci.php) for free. We'll be directing you to readings by chapter number and page. In addition, there is a section called [Critical Concepts](https://www.reefimages.com/oceans/SegarOcean4CritCon.pdf) which covers ideas that span multiple chapters. We will be directing you to review some of those by number also. The chapters all load as PDFs so you might consider saving assigned chapters to your computer and organizing them for future browsing.
+
+For R visualization work, the core text is:
+
+[R for Data Science](https://r4ds.had.co.nz/) by Garrett Grolemund and Hadley Wickham. This is a great intro text to working with data in R. I recommend reading the whole thing over the course of the summer, but I'll be assigning specific chapters in class.
+
+Other readings and resources for the class will be distributed as required. 
+
+
+
+

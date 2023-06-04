@@ -1,0 +1,42 @@
+---
+title: 'Initial Data Report'
+author: Ben Harden
+date: '2021-05-05'
+level: 2
+slug: []
+categories: []
+tags: []
+draft: no
+quiz: https://classroom.google.com/c/NDg3ODE3MzU4NzEw/a/NTM0OTU4MTc3NDcz/details
+---
+
+Our project data report will be a living document much like an edited lab notebook that serves to show me what you as a team have found and what you think it means. To be successful at this level I want you to use this tool to organize your results, make it clear to me that you understand what they show you, and work towards results that you want to present in your research poster.
+
+This document does need to be organized, but it does not need to be well-formatted or contain full sentences or beautiful figures. It is a function internal document, not a publishable external product. 
+
+## Exercise
+
+You should set up a shared Google Doc for your data report. Share this on the Google Classroom assignment below (but don't submit it) so I can have access to it too and check your work whenever you need me to. Only one person per team needs to do this.
+
+You are free to organize your document as makes most sense to you, but some things I want to see are:
+
+* Figures that show your results (from R)
+* Clear descriptions of each figure (can be in bullets)
+* Analysis and interpretation of your results (also in bullets)
+* Clear indication of what hypotheses you are testing (or indeed creating) through your analysis
+
+There is no set format for this, but one suggestion I have would be to organize your document around some of your hypotheses. I've created a [rough example Data Report](https://classroom.google.com/c/NDg3ODE3MzU4NzEw/m/NTM0OTU2MDc0NDkw/details) for you to check out just to give you a sense of how I might organize things,. but it's really up to you and what you think is most useful.
+
+You should:
+
+* Describe what your figures show accurately
+* Highlight key features that you can explain (or not!)
+* Add questions and TODOs to make sure your document records both what you do and don't know and can lead to assistance within teams 
+* Refer to previous work from you lit review as relevant
+* Add images if this is helpful
+* Use comments to discuss with your team
+* Record intentions for next steps
+* List any research questions that come to mind that might motivate future work.
+
+Finally - your last section of the document should be a clear list of what you feel are the main results that you will want to present in your poster. Again, this is a working list and is subject to change.
+

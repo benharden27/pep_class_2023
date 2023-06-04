@@ -1,0 +1,9 @@
+---
+title: "3. Present"
+weight: 3
+draft: true
+---
+
+Your final group activity is to present your research findings in a poster presentation. This will involve creating publication-ready figures, composing minimal text under headings, and designing a poster to combine all this information.
+
+We will present these posters to each other and the wider PEP community on Thurs July 13. 
