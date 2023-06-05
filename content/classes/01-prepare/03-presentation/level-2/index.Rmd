@@ -7,9 +7,10 @@ slug: []
 categories: []
 tags: []
 draft: no
+quiz: https://classroom.google.com/c/NjEyOTIyMzMyOTk2/a/NjEyOTIyMzMzMDQz/details
 ---
 
-You goal in Level 2 to is to deliver a solid research introduction presentation that organizes ideas from broad context to specific regional details and builds towards clear questions that you are hoping to answer. Again, your class project presentation is a group effort with each presenter taking 2-3 mins for a maximum of 7 mins. Your talk should cover the following:
+Your goal in Level 2 to is to deliver a solid research introduction presentation that organizes ideas from broad context to specific regional details and builds towards clear questions that you are hoping to answer. Again, your class project presentation is a group effort with each presenter taking 2-3 mins for a maximum of 8 mins. Your talk should cover the following:
 
 * Key scientific and regional background information
 * What is known and not known about your topic
@@ -22,7 +23,7 @@ If you're at Level 2, you already know how to make a slide deck with some bullet
 
 For a Level 2 presentation, I'm expecting to see:
 
-* A well thought-out progression from big ideas to specific details. Don't forget to cover all the Ws: What, where, when, why. For example, if my topic were extreme wind events in New England I'd probably want to make sure I cover:
+* A well thought-out progression from big ideas to specific details. Don't forget to cover all the W's: What, where, when, why. For example, if my topic were extreme wind events in New England I'd probably want to make sure I cover:
   + What an extreme wind event is
   + How they form and how frequent they are
   + Where they typically strike in New England

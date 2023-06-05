@@ -1,7 +1,7 @@
 ---
 title: "1. Prepare"
 weight: 1
-draft: true
+draft: false
 ---
 
 Your research team will **prepare** for answering research questions by delivering a brief introductory presentation about your topic area in the region of interest (Rhode Island Sound). Everyone should contribute to the presentation and each team member should speak for 2-3 mins. In your presentation, you could cover:

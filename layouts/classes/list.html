@@ -24,7 +24,7 @@
     
       {{ range sort .Sections ".Params.weight"}}
         
-        <div class = "section-tab" id = {{ lower (replace .Title " " "-")}} style = "display: {{ if eq (lower (replace .Title " " "-")) "1.-background-presentations"}}inline{{else}}none{{end}}">
+        <div class = "section-tab" id = {{ lower (replace .Title " " "-")}} style = "display: {{ if eq (lower (replace .Title " " "-")) "1.-prepare"}}inline{{else}}none{{end}}">
         
         <h2>{{ .Title }}</h2>
         

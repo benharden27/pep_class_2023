@@ -7,7 +7,7 @@ slug: []
 categories: []
 tags: []
 draft: no
-quiz: https://classroom.google.com/c/NDg3ODE3MzU4NzEw/a/NDg3ODE4MzQyMTA5/details
+quiz: https://classroom.google.com/c/NjEyOTIyMzMyOTk2/a/NjEyOTIyMzMzMDM2/details
 ---
 
 ```{r setup, include=FALSE}
@@ -80,9 +80,9 @@ group_by(df, Cruise) %>%
 
 * Q1: Use the WOCE surface temperature and salinity maps (above) to match the profiles up to their locations based on the surface temperature and salinity in the profiles.
 
-* Q2: Which profile/regions have the strongest and weakest pycnoclines? Why? 
+* Q2: Which profiles/locations have the strongest and weakest pycnoclines? What do you think it is about these locations that would support or limit the formation of a pycnocline? 
 
-* Q3: What consequences do you think this has for the vertical motion of water in these locations?
+* Q3: In which of these two locations would consequences do you think it would be easier to mix water between the surface and deep ocean? Why?
 
 
 ## Phytoplankton, Nutrients, and Light.
@@ -121,7 +121,7 @@ read_csv("S285-044.csv") %>%
 
 Q4: Look first at the light curve: where is there the most light and at what depth is there essentially no light in the ocean.
 
-Q5: Look at the density plot: How deep is the mixed layer?
+Q5: Look at the density plot: How deep does the surface mixed layer extend?
 
 Q6: Assuming there are no available nutrients in the mixed-layer and that nutrient availability increases below the pycnocline, explain why most phytoplankton (fluoroesence) are found around 100 m in the ocean.
 
@@ -129,7 +129,7 @@ Q7: Use the above answers and what you know about the processes by which oxygen 
 
 ## Zooplankton
 
-The following is some cruise data collected to the east of the Carribean. Each point represents a location where a surface net was towed from the research vessel. The amount of zooplankton collected in the net is represented by the size of the circle and the color indicates whether the sample was collected during the day or at night.
+The following is some cruise data collected to the east of the Caribbean. Each point represents a location where a surface net was towed from the research vessel. The amount of zooplankton collected in the net is represented by the size of the circle and the color indicates whether the sample was collected during the day or at night.
 
 ```{r}
 df <- read_csv("C282_neuston.csv") %>%
@@ -155,6 +155,7 @@ ggplot(df, aes(lon,lat)) +
   theme_bw()
 
 ```
+
 Q8: In general, were more zooplankton collected during the day or during the night? What could explain that pattern?
 
 Q9: Does the pattern hold true in all regions? If not, why might this be?

@@ -7,16 +7,16 @@ slug: []
 categories: []
 tags: []
 draft: no
-quiz: https://classroom.google.com/c/NDg3ODE3MzU4NzEw/a/NDg3ODE4MzQyMjA2/details
+quiz: https://classroom.google.com/c/NjEyOTIyMzMyOTk2/a/NjEyOTIyMzMzMDM4/details
 ---
 
 We should have a pretty good idea now how to read a paper and some general insight into how and where to find additional ones.
 
 Your goal now is to build an annotated bibliography for your research project that helps you understand what is known and see opportunities where you can contribute to scientific understanding.
 
-An annotated bibliography is a list of well formatted references to specific papers with a few of sentences after each that describe what the paper showed and what relevance it has to your project. An example can be seen [here](https://classroom.google.com/c/NDg3ODE3MzU4NzEw/m/NDg3ODE4MDY2ODEw/details). Keeping track of what your reading and what it teaches you is an essential skill of a research scientist. There is even software that can help you keepo track of things digitally (e.g. [Zotero](https://www.zotero.org/)).
+An annotated bibliography is a list of well formatted references to specific papers with a few of sentences after each that describe what the paper showed and what relevance it has to your project. An example can be seen [here](https://docs.google.com/document/d/17T4ZkstI4Vc3IjPVufbJgcZkCo8hYrRQDb7JjY3x0GM/edit?usp=sharing). Keeping track of what your reading and what it teaches you is an essential skill of a research scientist. There is even software that can help you keep track of things digitally (e.g. [Zotero](https://www.zotero.org/)).
 
-In the above example, each paper is referenced in a similar format. You may come across a number of different formats in your searches or in your previous experiences: each field/journal does things slightly different. For the sake of this project, we're going to use the format used by the [American Geophysical Union](https://www.agu.org/Publish-with-AGU/Publish/Author-Resources/Grammar-Style-Guide#referenceformat):
+In the above example, each paper is referenced in a similar format. You may come across a number of different formats in your searches or in your previous experiences: each field/journal does things slightly differently. For the sake of this project, we're going to use the format used by the [American Geophysical Union](https://www.agu.org/Publish-with-AGU/Publish/Author-Resources/Grammar-Style-Guide#referenceformat):
 
 Quoting from their site, the format is:
 
@@ -47,5 +47,5 @@ You need to use your searching and reading skills to:
 * Create a list of properly formatted references to the papers
 * Write 2 or 3 sentences after each describing what the paper shows and how it is useful to your project
 
-You can find an example annotated bibliography [here](https://classroom.google.com/c/NDg3ODE3MzU4NzEw/m/NDg3ODE4MDY2ODEw/details)
+You can find an example annotated bibliography [here](https://docs.google.com/document/d/17T4ZkstI4Vc3IjPVufbJgcZkCo8hYrRQDb7JjY3x0GM/edit?usp=sharing)
 

@@ -7,16 +7,16 @@ slug: []
 categories: []
 tags: []
 draft: no
-quiz: https://classroom.google.com/c/NDg3ODE3MzU4NzEw/a/NDg3ODE4MzQyMTcx/details
+quiz: https://classroom.google.com/c/NjEyOTIyMzMyOTk2/a/NjEyOTIyMzMzMDM3/details
 ---
 
 Now that you're comfortable with the main oceanographic concepts it's time to extend your thoughts in one of the areas.
 
-Based on your interest, you should select one of the following sections to explore in more detail. You should review the content and answer the questions. Then either come see me to discuss or submit your answers on Google Classroom.
+Based on your interest, you should **select one of the following sections** to explore in more detail. You should review the content and answer the questions. Then either come see me to discuss or submit your answers on Google Classroom.
 
 ## 1. Seasonal Temperature Profiles
 
-The depth and properties of the mixed layer of the ocean does not stay the same throughout the year. The following image shows the development of the temperature profile between summer and winter for a science station in the North East Pacific Ocean (Station OWS Papa).
+The depth and properties of the mixed layer of the ocean does not stay the same throughout the year. The following image shows the development of a temperature profile between summer and winter for a science station in the North East Pacific Ocean (Station OWS Papa).
 
 ```{r, out.width="350px"}
 knitr::include_graphics("annual_cycle.jpg")
