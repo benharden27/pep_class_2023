@@ -34,6 +34,9 @@ menu:
     - name: Calendar
       url: /calendar
       weight: 3
+    - name: Cruise Data
+      url: /cruise_data
+      weight: 3
     - name: Skills Rubric
       url: https://docs.google.com/document/d/1eOfi18detVbewPM1xEWJkWKK4qClLe2Bq8VYJE5DZ1A/edit?usp=sharing
       weight: 4

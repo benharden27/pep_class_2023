@@ -8,12 +8,12 @@ tags: []
 draft: no
 ---
 
-Our research projects will be centered on the data we collected during our 4 day cruise on the *SSV Corwith Cramer*. We sailed out of Woods Hole, out onto the inner New England Continental Shelf before looping back through Rhode Island Sound. During the cruise we undertook five sampling stations to collect data from CTD, niskin bottles, and neuston net.
+Our research projects will be centered on the data we collected during our 4 day cruise on the *SSV Corwith Cramer*. We sailed out of Woods Hole, along Vineyard Sounds and out onto the inner New England Continental Shelf before looping back through Buzzards Bay and Nantucket Sound.During the cruise we undertook four sampling stations to collect data from CTD, niskin bottles, and neuston net.
 
 ```{r, echo = FALSE, warnings = FALSE, message=FALSE}
 library(tidyverse)
-stations <- read_csv("data/C303B_stations.csv")
-elg <- read_csv("data/C303B_flowthru.csv")
+stations <- read_csv("data/C308C_summary_datasheet.csv")
+elg <- read_csv("data/C308C_elg.csv")
 coastline <- read_csv("data/coastline.csv")
 
 xbreaks <- pretty(range(elg$lon))
@@ -45,7 +45,7 @@ For each data stream, I've included the relevant metadata for you to determine w
 
 First off is the simple station location data. 
 
-* [Station location data](data/C303B_stations.csv)
+* [Station location data](data/C308C_summary_datasheet.csv)
 
 This includes the following columns
 
@@ -60,7 +60,7 @@ The flowthrough data is continuous surface data recorded whenever the ship is in
 
 One note - for the first 12 hours of the cruise, the flowthrough was not operating effectively and eventually stopped working. We discovered a build-up of biomass in the feeder pipe and cleaned this out. As such, the flowthrough data from before this period has been removed from the data set. The location and wind data is still there, but not the temperature, salinity or fluorescence.
 
-* [Flowthrough Data](data/C303B_flowthru.csv)
+* [Flowthrough Data](data/C308C_elg.csv)
 
 The columns are:
 
