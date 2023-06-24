@@ -7,10 +7,10 @@ slug: []
 categories: []
 tags: []
 draft: no
-quiz: https://classroom.google.com/c/NDg3ODE3MzU4NzEw/a/NTM0OTYwMzM2MTI3/details
+quiz: https://classroom.google.com/c/NjEyOTIyMzMyOTk2/a/NjEyOTIyMzMzMDU3/details
 ---
 
-To advance to Level 3 analysis skills, I'd like to see you add nuance and and understanding of your data limitations to the data report. 
+To advance to Level 3 analysis skills, I'd like to see you add nuance and understanding of your data limitations to the data report. 
 
 You should create an individual Google Doc at the assignment below to be your personal addendum to the wider data report. In this document, you should record additional analyses that go beyond my expectations for Level 2. We will review this addendum together and you will respond to some of my thoughts to help expand your view of what the data means and what it can (and can't) tell us.
 
