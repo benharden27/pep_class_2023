@@ -1,7 +1,7 @@
 ---
 title: "4. Participate"
 weight: 4
-draft: true
+draft: false
 ---
 
 Throughout the classwork, we'll be thinking about ourselves and how we relate to both our immediate teammates and also the wider scientific community
