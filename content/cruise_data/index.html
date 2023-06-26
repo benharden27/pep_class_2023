@@ -77,13 +77,13 @@ draft: no
 <li><a href="data/C308C-006_ctd.csv">CTD data Station 6</a></li>
 <li><a href="data/C308C_ctd.csv">CTD data All</a></li>
 </ul>
-<p>The columns are:</p>
+<p>The columns are</p>
 <ul>
-<li>cruise: Cruise ID (S303B)</li>
-<li>station: Station number</li>
-<li>lon: Longitude (°E)</li>
-<li>lat: Latitude (°N)</li>
-<li>dttm: Date and time of deployment</li>
+<li>cruise: cruise ID</li>
+<li>station: Station number for the cruise</li>
+<li>lon: longitude</li>
+<li>lat: latitude</li>
+<li>dttm: Date and time</li>
 <li>dep: Depth of measurement (m)</li>
 <li>fluor: Fluorescence (V - measure of chl-a concentration)</li>
 <li>oxygen2: Oxygen concentration</li>
@@ -94,5 +94,26 @@ draft: no
 <li>temp: Temperature (°C)</li>
 <li>theta: Potential Temperature (°C)</li>
 <li>file: Original filename of data</li>
+</ul>
+</div>
+<div id="bottles" class="section level2">
+<h2>Bottles</h2>
+<p>As we lower the CTD we also lower the 12 niskin bottles of the carousel. We shut these at difference depths and then drew that water off when it gets back to the surface. We then analyzed that water for chl-a, nitrates, and pH.</p>
+<p>As with the CTD data I’ve broken each cast out into it’s own file (see above), but I’ve also included a combined data file which you might find it easier to use for more advance R plotting.</p>
+<ul>
+<li><a href="data/C308C-002_bottle.csv">Bottle Station 2</a></li>
+<li><a href="data/C308C-003_bottle.csv">Bottle Station 3</a></li>
+<li><a href="data/C308C-004_bottle.csv">Bottle Station 4</a></li>
+<li><a href="data/C308C-006_bottle.csv">Bottle Station 6</a></li>
+<li><a href="data/C308C_bottle_datasheet.csv">Bottle All</a></li>
+</ul>
+<p>The columns are (in addition to the ones listed in the summary data):</p>
+<ul>
+<li>bottle: Bottle that water was drawn from (#) (lowest is deepest)</li>
+<li>chla: chlorophyll-a concentration</li>
+<li>no3: nitrate concentration</li>
+<li>pH: pH</li>
+<li>depth: Depth of bottle when it was closed</li>
+<li>…then columns for the values recorded by the CTD when the bottles closed.</li>
 </ul>
 </div>

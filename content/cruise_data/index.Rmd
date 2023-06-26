@@ -25,9 +25,10 @@ ggplot(elg, aes(lon, lat)) +
   geom_path() +
   geom_polygon(aes(group = group), data = coastline) +
   geom_point(data = stations, color = "red") +
-  geom_text(aes(label = station), data = stations, nudge_x = -.12) +
-  coord_quickmap(xlim = range(elg$lon) + c(-.3,+.1),
-                 ylim = range(elg$lat) + c(-.1,+.1)) +
+  geom_text(aes(label = station), data = filter(stations, deployment == "B" | deployment == "HC"), nudge_x = -.06) +
+  coord_quickmap(xlim = range(xbreaks),
+                 ylim = range(ybreaks),
+                 expand = FALSE) +
   labs(x = NULL, y = NULL) +
   scale_x_continuous(breaks = xbreaks, labels = xlabels) +
   scale_y_continuous(breaks = ybreaks, labels = ylabels) +
@@ -35,8 +36,15 @@ ggplot(elg, aes(lon, lat)) +
 
 # process ctd
 ctd <-  read_csv("data/C308C_ctd.csv")
-for (station in unique(ctd$station)) {
-  write_csv(filter(ctd, station == station), paste0("data/",station,"_ctd.csv"))
+for (station1 in unique(ctd$station)) {
+  ctdsub <- filter(ctd, station == station1)
+  write_csv(ctdsub, paste0("data/",station1,"_ctd.csv"))
+}
+
+bottle <- read_csv("data/C308C_bottle_datasheet.csv")
+for (station1 in unique(bottle$station)) {
+  bottlesub <- filter(bottle, station == station1)
+  write_csv(bottlesub, paste0("data/",station1,"_bottle.csv"))
 }
 
 ```
@@ -108,13 +116,13 @@ I have included the data in a couple of formats. One data file contains all the 
 * [CTD data Station 6](data/C308C-006_ctd.csv)
 * [CTD data All](data/C308C_ctd.csv)
 
-The columns are:
+The columns are 
 
-* cruise: Cruise ID (S303B)
-* station: Station number
-* lon: Longitude (°E)
-* lat: Latitude (°N)
-* dttm: Date and time of deployment
+* cruise: cruise ID
+* station: Station number for the cruise
+* lon: longitude
+* lat: latitude
+* dttm: Date and time
 * dep: Depth of measurement (m)
 * fluor: Fluorescence (V - measure of chl-a concentration)
 * oxygen2: Oxygen concentration
@@ -125,3 +133,26 @@ The columns are:
 * temp: Temperature (°C)
 * theta: Potential Temperature (°C)
 * file: Original filename of data
+
+## Bottles
+
+As we lower the CTD we also lower the 12 niskin bottles of the carousel. We shut these at difference depths and then drew that water off when it gets back to the surface. We then analyzed that water for chl-a, nitrates, and pH.
+
+As with the CTD data I've broken each cast out into it's own file (see above), but I've also included a combined data file which you might find it easier to use for more advance R plotting.
+
+
+* [Bottle Station 2](data/C308C-002_bottle.csv)
+* [Bottle Station 3](data/C308C-003_bottle.csv)
+* [Bottle Station 4](data/C308C-004_bottle.csv)
+* [Bottle Station 6](data/C308C-006_bottle.csv)
+* [Bottle All](data/C308C_bottle_datasheet.csv)
+
+
+The columns are (in addition to the ones listed in the summary data):
+
+* bottle: Bottle that water was drawn from (#) (lowest is deepest)
+* chla: chlorophyll-a concentration
+* no3: nitrate concentration
+* pH: pH
+* depth: Depth of bottle when it was closed
+* ...then columns for the values recorded by the CTD when the bottles closed.
