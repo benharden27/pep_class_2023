@@ -156,3 +156,61 @@ The columns are (in addition to the ones listed in the summary data):
 * pH: pH
 * depth: Depth of bottle when it was closed
 * ...then columns for the values recorded by the CTD when the bottles closed.
+
+## Neuston Net
+
+At every station, we towed a surface net through the water and catelogued all of the zooplankton and nekton (slightly larger and often mobile).
+
+* [Nueston Datasheet](data/C308C_neuston_datasheet.csv)
+
+The columns are (in addition to the ones listed in summary data)
+
+* zooplankton_biovol: total volume of zooplankton caught (ml)
+* biodens: biovol normalized by length of tow (ml/km)
+
+**Nekton**
+
+The following columns list the number of larger species found
+
+* phylosoma_count    
+* phylosoma_biovol
+* leptocephali_count
+* leptocephali_biovol
+* myctophid_count
+* myctophid_biovol   
+* cephalopod_count
+* cephalopod_biovol
+* other_nekton_count
+* other_nekton_biovol
+* total_nekton_count 
+* total_nekton_biovol
+* nekton_notes
+* gelatinous_count
+* gelatinous_biovol
+* gelatinous_notes   
+
+**Other floating things and metadata description**
+
+* plastic_pellets
+* plastic_pieces      
+* tar_ball            
+* halobates_count     
+* tow_description    
+* bottom_depth: in meters        
+* cloud_cover: percentage of sky covered
+* wave_height: in feet
+* wave_direction: in degrees from north
+* wind_speed: in knots
+* wind_direction: as wave_direction
+* adcp_bin_1_mag: surface current in m/s
+* adcp_bin_1_dir: as wave_direction
+* heading: ship heading
+* moon_phase: 0-100 new-full
+* moon_risen: is the moon risen (TRUE/FALSE) 
+
+**100 Count**
+
+We counted the first (approx) 100 things we saw under the microscope to get a measure of the sample and it's diversity. The followin are things we saw and their number.
+
+medusa, siphonophores, ctenophore, salp/doliolids, pteropods, nudibranch, heteropods, other_snails, squid_larvae,  polycheate_worms, chaetognaths, copepods, gammarid, hyperiid, megalopae, zoea, shrimp, lobster_larvae, mysid, euphausid, stomatopod, ostracods, cladocera, isopods, fish_larvae, fish_eggs, other1, other2, other3, other_description, total_100count     
+        
