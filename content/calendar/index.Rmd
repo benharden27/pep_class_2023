@@ -25,7 +25,7 @@ knitr::kable(
                   "Mon July 3", "Class 9a-5p",
                   "Mon July 10", "Class 9a-5p",
                   "Thurs July 13", "Class Poster Session 9a-10a",
-                  "Sat July 15","All Work Due"
+                  "Sun July 16","All Work Due"
                   )
 )
 ```
