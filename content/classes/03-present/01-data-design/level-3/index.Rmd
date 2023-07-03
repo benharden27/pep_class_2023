@@ -7,7 +7,7 @@ slug: []
 categories: []
 tags: []
 draft: no
-quiz: https://classroom.google.com/c/NDg3ODE3MzU4NzEw/a/NTI1MDIyMjM0NTc4/details
+quiz: https://classroom.google.com/c/NjEyOTIyMzMyOTk2/a/NjEyOTIyMzMzMDU5/details
 ---
 
 This level will introduce to a couple of advanced tools that will be helpful in designing your plots. Specifically, how to make multiple panels and how to customize your theme.

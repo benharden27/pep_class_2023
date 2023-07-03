@@ -1,5 +1,5 @@
 ---
 title: "Self Reflection"
 weight: 1
-draft: yes
+draft: no
 ---

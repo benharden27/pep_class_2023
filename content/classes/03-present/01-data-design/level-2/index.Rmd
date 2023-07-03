@@ -7,7 +7,7 @@ slug: []
 categories: []
 tags: []
 draft: no
-quiz: https://classroom.google.com/c/NDg3ODE3MzU4NzEw/a/NTI1MDIyMjM0MzU3/details
+quiz: https://classroom.google.com/c/NjEyOTIyMzMyOTk2/a/NjEyOTIyMzMzMDU4/details
 ---
 
 Now that we have a little theory behind us, we're going to look at some of the tools in R that allow us to make figures that will look really good on our poster and other publications.
