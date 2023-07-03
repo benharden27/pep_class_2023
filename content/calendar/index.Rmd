@@ -20,13 +20,12 @@ knitr::kable(
                   "Wed June 14", "Board SSV Corwith Cramer @ 2pm",
                   "Sun June 18", "Return from sea @ 9am",
                   "Mon June 19", "Juneteenth Observance - no class",
-                  "Tues June 20", "Class 1p-5p",
-                  "Thurs June 22", "Ethics Seminar @ WHOI 10a-1p",
+                  "Thurs June 22", "Ethics Seminar @ WHOI 10a-1p, Class 3p-5p",
                   "Mon June 26", "Class 9a-5p",
-                  "Thurs June 29", "Pizza and Presentations 6p-8p",
                   "Mon July 3", "Class 9a-5p",
                   "Mon July 10", "Class 9a-5p",
-                  "Thurs July 13", "Class Poster Session 9a-10a"
+                  "Thurs July 13", "Class Poster Session 9a-10a",
+                  "Sat July 15","All Work Due"
                   )
 )
 ```
